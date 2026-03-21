@@ -1,0 +1,158 @@
+/* General body styling */
+body#main-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d0f0c0; /* soft light green */
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Intro text and highlights */
+#intro-text {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    margin-bottom: 1.5em;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+/* Page contents list */
+#page-contents {
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+.content-item {
+    margin-bottom: 0.5em;
+}
+
+.sub-list {
+    margin-left: 20px;
+}
+
+/* Section headings */
+h4#resources-heading {
+    color: #006400;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+/* Resources list styling */
+#resources-list li {
+    margin-bottom: 10px;
+}
+
+/* Paragraphs styling */
+#polish-recommendation,
+#contacts,
+#book-resources,
+#belarus-dictionary {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Images styling */
+#olimpijska-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.olimpijska {
+    max-width: 200px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.olimpijska:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Contact emails styling */
+.contact-email {
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+/* Links styling */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+#site-footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    border-top: 2px solid #ccc;
+    text-align: center;
+    background-color: #e0ffe0;
+}
+
+.flag {
+    width: 40px;
+    height: auto;
+    margin: 0 10px;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+    #olimpijska-images {
+        justify-content: center;
+    }
+
+    .olimpijska {
+        max-width: 45%;
+    }
+
+    .flag {
+        width: 30px;
+        margin: 0 5px;
+    }
+}
+/* Top Navigation Bar */
+#top-nav {
+    background-color: #1a73e8;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+#top-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#top-nav ul li {
+    margin: 0 15px;
+}
+
+#top-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#top-nav ul li a:hover {
+    background-color: white;
+    color: #1a73e8;
+    border-radius: 5px;
+}

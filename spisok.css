@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff; /* light soft blue */
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Page heading */
+h1 {
+    text-align: center;
+    color: #1a73e8;
+    margin-bottom: 30px;
+}
+
+/* Telegram list */
+.telegram-list {
+    list-style: none; /* remove default bullets */
+    padding: 0;
+    max-width: 500px;
+    margin: 0 auto; /* center the list */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Each list item */
+.telegram-list li {
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.telegram-list li:last-child {
+    border-bottom: none; /* remove border for last item */
+}
+
+/* Channel name styling */
+.channel-name {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Link styling */
+.channel-link {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.channel-link:hover {
+    background-color: #1a73e8;
+    color: white;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 600px) {
+    .telegram-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .channel-link {
+        margin-top: 5px;
+    }
+}
