@@ -1,0 +1,11 @@
+### Podstawy podstaw. 
+1. *Punkt Materealny $A_{m}$ wyraża się nawiasem $(A, m)$ gdzie $A$ jest dowlnym punktem płaszczyzny, a $a_{m}$ jest jego tzw. masą - czyli dowolną wartością z $\mathbb{R}$. Chociaż zazwyczaj dodatnią. 
+2. *Układem Punktów Materealnych $\mathcal{U}_{X} = \mathcal{U}$ nazywamy taki to zbiór $\mathcal{U}$ = $\mathcal{U}_{X}$ = $\{$ $(A_{1}, m_{1}), (A_{2}, m_{2}), (A_{3}, m_{3}), \dots, (A_{n}, m_{n})$ $\}$
+3. *Momentem Punktu X względem Układu $\mathcal{U}$ - tak nazywać będziemy wartość $M_{X} = M_{X}(\mathcal{U}) = m_{1}\vec{MA_{1}} + m_{2}\vec{MA_{2}} + m_{3}\vec{MA_{3}} + \dots + m_{n}\vec{MA_{n}} = \sum_{i = 1}^{n}m_{i}\vec{MA_{i}}$
+4. *Masą Sumaryczną Układu $\mathcal{U}$ to jest - $m = m(\mathcal{U})$ = $m_{1} + m_{2} + m_{3} + \dots + m_{n} = \sum_{i=1}^{n}m_{i}$  
+5. *Środkiem Mas Układu $\mathcal{{U}}$ jest $G =G_{\mathcal{U}} \iff M_{G} = \mathbf{0}$ gdzie $\mathbf{0}$ - wektor zerowy 
+6. *Pod-Układ $\mathcal{U}$ - pod-układem układu punktów materealnych $\mathcal{U}$ nazywamy kazdy układ $\forall A_{m}\,(A_{m} \in \mathcal{V} \Rightarrow A_{m} \in \mathcal{U})$ $\iff$ $\mathcal{V} \subseteq \mathcal{U}$*
+#### Twierdzenie 1. O Sumie Układu $\mathcal{U}$ i Rozłorzeniu na Pod-Układy. 
+Na rozgrzewkę, jeżeli wiemy, że $\mathcal{U} = \mathcal{U_{1}} \cup \mathcal{U_{2}}$ to z tego, wynika piękne twierdznie. A mianowicie, że, $G_{\mathcal{U}} = G_{\{(G_{1}, m_{1}), ({G_{2}, m_{2}})\}}$ . Dowód 
+#### Twierdzenie 2 - Huśtawka/Dzwignia, Prawo Archimidesa, Złote Prawo Statyki. 
+
